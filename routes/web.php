@@ -67,6 +67,6 @@ Route::get('/facades/decrypt', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/generate/password', function(){return bcrypt('123456789');});
